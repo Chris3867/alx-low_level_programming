@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/* printing the alphabet */
+/**
+* main - Printing the alphabet
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	char letter;
