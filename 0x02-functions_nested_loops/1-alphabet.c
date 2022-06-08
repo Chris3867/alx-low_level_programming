@@ -1,18 +1,21 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-* main _check the code
+* main - entry point
 *
-* Return: void.
+* Return: Always 0 (success)
 */
 
-void print_alphabet)void)
+int main(void)
 {
-	int i;
-
-	for (i = 97; i < 123; i++)
+	int m;
+	for (m = 'a'; m < 'z'; m++)
 	{
-	_putchar(i);
+		putchar(m);
 	}
-	_putchar('\n');
+	putchar("\n");
+
+	return (0);
 }
+
