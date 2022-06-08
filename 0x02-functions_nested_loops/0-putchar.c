@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
-* main - entry point
-*
-* prints out _putchar followed by a newline.
-*
-* Return: always 0 (Success)
-*/
+ * main - entry point
+ *
+ * prints out _putchar followed by a newline.
+ *
+ *  Return: always 0 (Success)
+ */
 
 int main(void)
 {
@@ -15,9 +15,10 @@ int main(void)
 	int m;
 
 	for (m = 0; m < 8; m++)
-	_putchar(ch[m]);
+		_putchar(ch[m]);
 
 	_putchar('\n');
 
 	return (0);
 }
+
